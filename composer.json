@@ -1,0 +1,23 @@
+{
+    "name": "erwininteractive/linear-algebra",
+    "description": "linear algebra library for neural network programs",
+    "type": "library",
+    "version": "0.0.1",
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LinearAlgebra\\": "src/",
+            "LinearAlgebra\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew S Erwin",
+            "email": "andrewerwin73@gmail.com"
+        }
+    ],
+    "require": {}
+}
